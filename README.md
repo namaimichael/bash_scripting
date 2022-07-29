@@ -56,6 +56,9 @@ Step 7
 `git add usernames`
 `git push`
 
+<img width="512" alt="image" src="https://user-images.githubusercontent.com/44470462/181836317-970d5771-03f6-4ffb-9113-a403f53ac45e.png">
+
+
 
 
 
