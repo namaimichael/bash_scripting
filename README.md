@@ -116,9 +116,9 @@ Step 13
 **Git checkout to the main branch first  # local main branch needs to be up-to-date**
 
 `$ git checkout main 
-$ git pull 
-$ git checkout feature-branch
-$ git merge main `
+&& git pull 
+&& git checkout feature-branch
+&& git merge main `
 
 
 
