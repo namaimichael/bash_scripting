@@ -140,3 +140,12 @@ Step 14
 
 <img width="579" alt="image" src="https://user-images.githubusercontent.com/44470462/181843291-52937193-48ce-4109-92b8-7206e32be631.png">
 
+
+Step 15
+
+### Delete feature-branch 
+`git merge feature-branch && git branch -d feature-branch`
+
+<img width="454" alt="image" src="https://user-images.githubusercontent.com/44470462/181845784-3972ea04-1fc3-4233-abb1-8d41606c14f5.png">
+
+
