@@ -1,6 +1,6 @@
 #! /bin/bash
 
-## PRINT USERNAMES OF ALL USERS ON A LINUX SYSTEM  WITH HOME DIRECTORIES
+## PRINT USERNAMES OF ALL USERS ON A LINUX SYSTEM  WITH HOME THEIR DIRECTORIES
 
 HOME=/home/ubuntu/scripts/users
 OUTPUT="${HOME}/current_users.log"
@@ -14,8 +14,8 @@ echo "$user:${HOMEDIR[i]}"
 ((i++))
 done
 
-## LOG THE OUTPUT AS MD5 HASH  FILE
 
+## LOG THE OUTPUT AS MD5 HASH  ON A HASHFILEFILE
 
 LOG=/var/log
 HASHFILE="${LOG}/current_users"
@@ -23,7 +23,7 @@ exec 1> $HASHFILE
 
 echo -n $1 | md5sum > $HASHFILE
 
-## LOG MD5 HASH CHANGES TO USER CHANGES FILE
+## LOG THE HASHFILE CHANGES TO A NEW USER CHANGES FILE
 
 
 NOW=$( date '+%F_%H:%M:%S' )
