@@ -117,8 +117,7 @@ Step 13
 
 `$ git checkout main 
 && git pull 
-&& git checkout feature-branch
-&& git merge main `
+&& git merge feature-branch`
 
 
 <img width="685" alt="image" src="https://user-images.githubusercontent.com/44470462/181842288-46bb91f2-c1e5-456b-aa92-bc4d3d685368.png">
