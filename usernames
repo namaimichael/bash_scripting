@@ -41,4 +41,8 @@ then
 	echo "" >> $USERCHANGES
 fi
 
+<<<<<<< HEAD
 ## END OF THE SCRIPT
+=======
+## END
+>>>>>>> feature-branch
