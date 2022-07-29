@@ -47,7 +47,16 @@ Step 6
 ## Add local changes commits and Push the local changes to the remote repository 
 `git add *`
 `git commit -m "second commit`
-`git push 
+`git push`
+
+Step 7 
+
+### Commit new code changes and push the changes to your remote repo
+
+`git add usernames`
+`git push`
+
+
 
 
 
