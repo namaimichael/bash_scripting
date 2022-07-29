@@ -109,6 +109,11 @@ Step 12
 
 <img width="646" alt="image" src="https://user-images.githubusercontent.com/44470462/181841222-e893f1e2-4c99-4ed1-a800-a98bedae5634.png">
 
+Step 13 
+
+### Merge the feature branch with main branch 
+
+**Git checkout to the main branch first  # local main branch needs to be up-to-date**
 
 
 
