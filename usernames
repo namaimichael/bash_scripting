@@ -41,4 +41,4 @@ then
 	echo "" >> $USERCHANGES
 fi
 
-## END
+## END OF THE SCRIPT
