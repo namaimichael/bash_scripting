@@ -92,6 +92,23 @@ Step 10
 <img width="453" alt="image" src="https://user-images.githubusercontent.com/44470462/181839322-327edb1a-375d-4f53-a3f8-621317bd1abb.png">
 
 
+Step 11 
+
+### Switch back to your feature branch and perform Git stash pop to restore your uncommited changes on the feature branch 
+`$ git checkout feature-branch && git stash pop`
+<img width="570" alt="image" src="https://user-images.githubusercontent.com/44470462/181840289-024bf2a7-f728-486c-b274-09b438e2c5b1.png">
+
+Step 12 
+
+### Commit your feature branch commit locally and push to the remote repository 
+
+`git add usernames && git commit -m "awesome feature"`
+<img width="624" alt="image" src="https://user-images.githubusercontent.com/44470462/181840715-749f3bfe-c889-4a43-8a0f-36adf97a3a4e.png">
+
+`git push --set-upstream origin feature-branch` 
+
+<img width="646" alt="image" src="https://user-images.githubusercontent.com/44470462/181841222-e893f1e2-4c99-4ed1-a800-a98bedae5634.png">
+
 
 
 
