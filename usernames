@@ -40,3 +40,4 @@ then
 	echo "" >> $USERCHANGES
 fi
 
+## END
