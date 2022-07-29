@@ -87,10 +87,10 @@ Step 10
 Step 10 
 
 ### Make code changes to main branch commit new changes to the main remote repository 
-`$ git commit -m "third commit"`
 
 <img width="453" alt="image" src="https://user-images.githubusercontent.com/44470462/181839322-327edb1a-375d-4f53-a3f8-621317bd1abb.png">
 
+`$ git commit -m "third commit"`
 
 Step 11 
 
