@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 ## PRINT USERNAMES OF ALL USERS ON A LINUX SYSTEM  WITH HOME THEIR DIRECTORIES
 
@@ -9,7 +9,9 @@ exec 1>  $OUTPUT
 NAME=($(getent passwd | cut -d ':' -f 1))
 HOMEDIR=($(getent passwd | cut -d ':' -f 6))
 i=0
-for user in "${NAME[@]}"; do
+for user in "${NAME[@]}";
+
+do
 echo "$user:${HOMEDIR[i]}"
 ((i++))
 done
@@ -25,12 +27,11 @@ echo -n $1 | md5sum > $HASHFILE
 
 ## LOG THE HASHFILE CHANGES TO A NEW USER CHANGES FILE
 
-
 NOW=$( date '+%F_%H:%M:%S' )
 NEWHASH=$(echo $NOW >> "$HASHFILE"  | md5sum)
 OLDHASH=$(cat "$HASHFILE")
 USERCHANGES="${LOG}/user_changes"
-exec 4>> $USERCHANGES
+exec 1>> $USERCHANGES
 
 if [[ "${NEWHASH}" != "${OLDHASH}" ]];
 then
