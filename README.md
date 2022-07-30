@@ -1,6 +1,6 @@
 # 1. BASH SCRIPTING TUTORIAL 
 
-# Bash Scripting Input and Output
+##Bash Scripting Input and Output
 
 **Exercise 1**
 
