@@ -248,13 +248,13 @@ Posible reasons for a web application slow performance could be as a result of;
 1. High volume of  Unoptmistied images - This may be the primary reason for the slow loading of the web application website.  
 2. Unsatisfactory server performance - This is also reason in whic. All components on a single server with 8GB of RAM which might be quite small. I guess resource starvation could be an issue. But it could also be network latency. So probably the first thing to start with would be to check with the user to test how long the request takes from them to the web server. The 'Developer Tools' and 'Network' section in Chrome on user's PC could be a good place to start.
 
-#Troubleshooting:
+# Troubleshooting:
 
 We can check the metrics of basic resource of the Linux box. CPU/Memory availability and Disk space and I/O etc. Confirm it has enough capability for the web application service.
 
 If the customer is using a load balancer on the front end and have metrics for the backend response time, we can check it. We can determine whether it is the load balancer itself or the backend. If it is the backend, we can check the access log of the backend. If the middleware that runs the framework and the web server are separated (Apache and Tomcat, etc.), we can check the front-end first. If there is a problem with the application, check the application logs as well to see what process is causing the delay. From here, there are so many possibilities as follows.
 
-*Writer down and discuss the possible causes of the slowness;
+**Writer down and discuss the possible causes of the slowness;
 
 User environment dependent issues. 
 - For example, local network latency. 
