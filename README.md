@@ -65,14 +65,14 @@ $ 0 * * * * /home/ubuntu/scripts/users/usernames`
 <img width="510" alt="image" src="https://user-images.githubusercontent.com/44470462/181906190-d9be6d0f-c0f7-4908-96a4-9db5fa9ed492.png">
 
 
-** Exercise 2 **
+**Exercise 2**
 
 3. Study the Git commit graph shown below. What sequence of Git commands
 could have resulted in this commit graph?
 
 <img width="662" alt="image" src="https://user-images.githubusercontent.com/44470462/181833105-312637d1-3879-484b-a593-659170df4977.png">
 
-** Answer ** 
+**Answer** 
 
 1. The user executed first commit from main branch with comments first commit `git commit -m "first commit"`
 2. The user executed second commit from main branch with comments second commit `git commit -m "second commit"`
@@ -82,7 +82,7 @@ could have resulted in this commit graph?
 6. The user from the main branch commited a commit with comments fourth commit `git commit -m "fourth commit"`
 
 
-** Exercise 3 ** 
+**Exercise 3** 
 
 4. You’ve been hired to write a Git tutorial for beginners on: Using Git to implement a new feature/change without affecting the main branch
 
@@ -224,7 +224,7 @@ Step 15
 <img width="454" alt="image" src="https://user-images.githubusercontent.com/44470462/181845784-3972ea04-1fc3-4233-abb1-8d41606c14f5.png">
 
 
-** Exercise 4 **
+**Exercise 4**
 
 5. What is a technical book/blog you read recently that you enjoyed? Please include a brief review of what you especially liked or didn’t like about it.
 
@@ -234,7 +234,7 @@ https://dotnetplaybook.com/deploy-a-net-core-api-with-docker/
 
 This is a technical tutorial blog on how to deploy a dotnet core api with docker. The blog is write in simple and intuitive language for beginners and advance users with example commands on how-to perform each task. The focus of this tutorial was to illustrate the ease with which you can deploy apps in Docker
 
-** Exercise 5 **
+**Exercise 5**
 
 5. A user is complaining that it's taking a long time to load a page on our web application.
 
