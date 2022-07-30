@@ -1,8 +1,81 @@
 # bash_scripting
-Bash Scripting Input and Output
+
+##Bash Scripting Input and Output
+
+**Exercise 1**
+
+1. Write a Ruby or Bash script that will print usernames of all users on a Linux
+system together with their home directories.
+
+Step 1 
+
+### Create a new file for your bash script from your working directory 
+
+`$ touch usernames`
+
+Step 2 
+
+### Give you new created file execute user permission 
+`$ sudo chmode 764 username` 
+
+Step 3 
+
+### Open your new file with your favourite editor and write your script
+`$ nano usernames` 
+
+<img width="524" alt="image" src="https://user-images.githubusercontent.com/44470462/181905796-b4705b74-7a7e-4202-8f70-9d9982ada452.png">
+
+Step 4 
+
+### Save your file and execute you script 
+
+`sudo ./usernames`
+
+Step 5 
+
+### Check your script out from your log files 
+
+`cat /var/log/current_users`
+
+<img width="442" alt="image" src="https://user-images.githubusercontent.com/44470462/181905924-a58cdaa6-b31a-45af-82fb-aaf84e7b3b43.png">
+
+`cat /var/log/user_changes`
+
+<img width="430" alt="image" src="https://user-images.githubusercontent.com/44470462/181906049-0c05ff0e-1b4c-4049-9810-a9f024e3e00c.png">
+
+
+## Cron Job
+
+Step 6 
+
+### Create a cron job that runs every one hour 
+
+`crontab -e` 
+
+<img width="493" alt="image" src="https://user-images.githubusercontent.com/44470462/181906153-4c841772-dcb6-49e5-9bfc-4b6bd8a81160.png">
+
+
+### Cron job will execute your script every one hour
+
+`# Execute Cron Job every 1 hour
+$ 0 * * * * /home/ubuntu/scripts/users/usernames`
+
+<img width="510" alt="image" src="https://user-images.githubusercontent.com/44470462/181906190-d9be6d0f-c0f7-4908-96a4-9db5fa9ed492.png">
 
 
 
+
+
+##GIT TUTORIAL 
+
+Local and remote repository set up 
+
+** Exercise **
+
+3. Study the Git commit graph shown below. What sequence of Git commands
+could have resulted in this commit graph?
+
+<img width="662" alt="image" src="https://user-images.githubusercontent.com/44470462/181833105-312637d1-3879-484b-a593-659170df4977.png">
 
 # Create a repository on your remote or local Git and initialize it.
 
@@ -33,14 +106,6 @@ Step 5
 ## Make changes on you local code and add the changes to the local staging 
 `$ git add *`
 `$ git commit -m "first commit"`
-
-
-** Exercise **
-
-3. Study the Git commit graph shown below. What sequence of Git commands
-could have resulted in this commit graph?
-
-<img width="662" alt="image" src="https://user-images.githubusercontent.com/44470462/181833105-312637d1-3879-484b-a593-659170df4977.png">
 
 Step 6 
 
