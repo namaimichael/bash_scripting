@@ -59,8 +59,7 @@ Step 6
 
 ### Cron job will execute your script every one hour
 
-`# Execute Cron Job every 1 hour
-$ 0 * * * * /home/ubuntu/scripts/users/usernames`
+#Execute Cron Job every 1 hour `0 * * * * /home/ubuntu/scripts/users/usernames`
 
 <img width="510" alt="image" src="https://user-images.githubusercontent.com/44470462/181906190-d9be6d0f-c0f7-4908-96a4-9db5fa9ed492.png">
 
