@@ -1,4 +1,4 @@
-# bash_scripting
+# 1. BASH SCRIPTING TUTORIAL 
 
 ##Bash Scripting Input and Output
 
@@ -44,7 +44,7 @@ Step 5
 <img width="430" alt="image" src="https://user-images.githubusercontent.com/44470462/181906049-0c05ff0e-1b4c-4049-9810-a9f024e3e00c.png">
 
 
-## Cron Job
+# 2. Job CRON JOB
 
 Step 6 
 
@@ -66,7 +66,7 @@ $ 0 * * * * /home/ubuntu/scripts/users/usernames`
 
 
 
-# GIT TUTORIAL 
+# 3. GIT TUTORIAL 
 
 Local and remote repository set up 
 
@@ -86,18 +86,18 @@ Step 1
 
 Step 2 
 
-## Genarate public SSH KEYS from your local termial and copy the pub key to your remote repository server.
+# Genarate public SSH KEYS from your local termial and copy the pub key to your remote repository server.
 `$ ssh-keygen -t rsa` # public key output will be stored on this location `$ cat ~/.ssh/id_rsa.pub`
 
 Step 3 
 
-## Add your remote reposity server to your local Git and set Git global configs (i.e Default name, branch & email)
+# Add your remote reposity server to your local Git and set Git global configs (i.e Default name, branch & email)
 `$ git remote add origin git@github.com:namaimichael/bash_scripting.git'
 `$ git branch -M main`
 
 Step 4
 
-## Git push your local changes to your remote repository 
+# Git push your local changes to your remote repository 
 
 `$ git push -u origin main`
 
