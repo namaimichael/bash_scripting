@@ -1,6 +1,6 @@
 # 1. BASH SCRIPTING TUTORIAL 
 
-##Bash Scripting Input and Output
+# Bash Scripting Input and Output
 
 **Exercise 1**
 
@@ -33,7 +33,7 @@ Step 4
 
 Step 5 
 
-### Check your script out from your log files 
+### Check your script output from your log files 
 
 `cat /var/log/current_users`
 
@@ -44,7 +44,9 @@ Step 5
 <img width="430" alt="image" src="https://user-images.githubusercontent.com/44470462/181906049-0c05ff0e-1b4c-4049-9810-a9f024e3e00c.png">
 
 
-# 2. Job CRON JOB
+
+# 2. CRON JOB TUTORIAL
+
 
 Step 6 
 
@@ -65,12 +67,11 @@ $ 0 * * * * /home/ubuntu/scripts/users/usernames`
 
 
 
-
 # 3. GIT TUTORIAL 
 
 Local and remote repository set up 
 
-** Exercise **
+** Exercise 2 **
 
 3. Study the Git commit graph shown below. What sequence of Git commands
 could have resulted in this commit graph?
