@@ -104,8 +104,7 @@ Step 2
 Step 3 
 
 ### Add your remote reposity server to your local Git and set Git global configs (i.e Default name, branch & email)
-`$ git remote add origin git@github.com:namaimichael/bash_scripting.git'
-`$ git branch -M main`
+`$ git remote add origin git@github.com:namaimichael/bash_scripting.git && git branch -M main`
 
 Step 4
 
@@ -172,14 +171,18 @@ Step 10
 Step 11 
 
 ### Switch back to your feature branch and perform Git stash pop to restore your uncommited changes on the feature branch 
+
 `$ git checkout feature-branch && git stash pop`
+
 <img width="570" alt="image" src="https://user-images.githubusercontent.com/44470462/181840289-024bf2a7-f728-486c-b274-09b438e2c5b1.png">
+
 
 Step 12 
 
 ### Commit your feature branch commit locally and push to the remote repository 
 
 `git add usernames && git commit -m "awesome feature"`
+
 <img width="624" alt="image" src="https://user-images.githubusercontent.com/44470462/181840715-749f3bfe-c889-4a43-8a0f-36adf97a3a4e.png">
 
 `git push --set-upstream origin feature-branch` 
@@ -192,10 +195,7 @@ Step 13
 
 **Git checkout to the main branch first  # local main branch needs to be up-to-date**
 
-`$ git checkout main 
-&& git pull 
-&& git checkout feature-branch
-&& git merge main`
+`$ git checkout main  && git pull && git checkout feature-branch && git merge main`
 
 
 <img width="685" alt="image" src="https://user-images.githubusercontent.com/44470462/181842288-46bb91f2-c1e5-456b-aa92-bc4d3d685368.png">
@@ -210,10 +210,7 @@ Step 14
 
 ### Checkout the main branch and merge with the feature branch 
 
-`$ git checkout feature-branch 
-&& git pull 
-&& git checkout main
-&& git merge feature-branch`
+`$ git checkout feature-branch && git pull && git checkout main && git merge feature-branch`
 
 <img width="579" alt="image" src="https://user-images.githubusercontent.com/44470462/181843291-52937193-48ce-4109-92b8-7206e32be631.png">
 
