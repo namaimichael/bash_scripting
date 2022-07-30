@@ -66,7 +66,7 @@ $ 0 * * * * /home/ubuntu/scripts/users/usernames`
 
 
 
-##GIT TUTORIAL 
+# GIT TUTORIAL 
 
 Local and remote repository set up 
 
