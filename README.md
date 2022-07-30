@@ -254,7 +254,6 @@ We can check the metrics of basic resource of the Linux box. CPU/Memory availabi
 
 If the customer is using a load balancer on the front end and have metrics for the backend response time, we can check it. We can determine whether it is the load balancer itself or the backend. If it is the backend, we can check the access log of the backend. If the middleware that runs the framework and the web server are separated (Apache and Tomcat, etc.), we can check the front-end first. If there is a problem with the application, check the application logs as well to see what process is causing the delay. From here, there are so many possibilities as follows.
 
-**Writer down and discuss the possible causes of the slowness;
 
 User environment dependent issues. 
 - For example, local network latency. 
